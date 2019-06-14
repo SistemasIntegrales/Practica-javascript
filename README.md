@@ -3,11 +3,11 @@
 ## Diversos ejemplos para los temas:
 
 ### Evitar ciclos for:
-#### forEach
-#### map
-#### find
-#### every & some
-#### reduce
+#### - forEach
+#### - map
+#### - find
+#### - every & some
+#### - reduce
 
 ### Evitar var:
 #### Const & let
