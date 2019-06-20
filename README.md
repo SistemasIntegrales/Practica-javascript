@@ -5,6 +5,7 @@
 ### Evitar ciclos for:
 #### - forEach
 #### - map
+#### - filter
 #### - find
 #### - every & some
 #### - reduce
