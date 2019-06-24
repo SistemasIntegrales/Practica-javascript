@@ -29,5 +29,68 @@ computadoras.some(function(computadora) {
 
 var names = [
   "Alexa",
-  ""
-]
+  "Matthew",
+  "Joe"
+];
+
+names.every(function(name) {
+  return name.length > 4;
+});
+names.some(function(name) {
+  return name.length > 4;
+});
+
+/*
+* EJEMPLOS PRÁCTICOS:
+* Login FORM
+* Que el usuario SÍ haya ingresado algo.
+*
+*/
+
+function Field(value) {
+  this.value = value;
+}
+
+Field.prototype.validate = function() {
+  return this.value.length > 0;
+}
+
+const username = new Field("MuyCool");
+const password = new Field("contrasena");
+const cumple = new Field("09/05/1996");
+
+//Práctico si hay pocos campos:
+username.validate() && password.validate();
+
+//MEJOR FORMA:
+const fields = [username, password, cumple];
+let formIsValid = fields.every(function(field) {
+  return field.validate();
+});
+if (formIsValid) {
+  //Dejar que se envíe
+} else {
+  //Mensaje de ERROR
+}
+
+/*
+* EJERCICIOS
+*/
+var users = [
+  { id: 21, hasSubmitted: true },
+  { id: 62, hasSubmitted: false },
+  { id: 4, hasSubmitted: true }
+];
+var hasSubmitted = users.every(function(user) {
+  return user.hasSubmitted;
+});
+
+
+var requests = [
+  { url: '/photos', status: 'complete' },
+  { url: '/albums', status: 'pending' },
+  { url: '/users', status: 'failed' }
+];
+var inProgress = requests.some(function(request) {
+  return request.status == 'pending';
+});
