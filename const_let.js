@@ -7,6 +7,13 @@
 const nombre = "Emiliano";
 // si trato de cambiar nombre, el script truena.
 
+// Nunca declarar un const vacío
+// Ej:
+const nacimiento;
+// Hay que asignarle un valor.
+// Recordar que no se puede volver a cambiar,
+// hay de dos, una, se mandará un error; dos, siempre quedará indefinida la variable.
+
 let titulo = "Software Engineer";
 // Se permite cambiarlo
 
