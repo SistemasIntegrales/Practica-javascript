@@ -14,6 +14,13 @@
 #### Const & let
 
 ### Template Strings
+#### `... ${variable} ...`
 
 ### Cambios en las funciones:
 #### Funciones flecha
+
+### Nueva forma de escribir objetos
+#### Enhanced Object Literals
+#### De llave : valor a llave
+##### Ejemplo: { nombre: nombre } --> { nombre }
+##### Ejemplo: { getNombre: function() {...} } --> { getNombre() {...} }
