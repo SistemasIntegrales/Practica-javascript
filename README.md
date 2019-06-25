@@ -24,3 +24,5 @@
 #### De llave : valor a llave
 ##### Ejemplo: { nombre: nombre } --> { nombre }
 ##### Ejemplo: { getNombre: function() {...} } --> { getNombre() {...} }
+
+### Default Function Arguments
