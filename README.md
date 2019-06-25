@@ -26,3 +26,7 @@
 ##### Ejemplo: { getNombre: function() {...} } --> { getNombre() {...} }
 
 ### Default Function Arguments
+
+### Operadores Rest & Spread
+#### Capturar argumentos
+#### ...
