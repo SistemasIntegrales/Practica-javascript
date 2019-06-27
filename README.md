@@ -36,3 +36,7 @@
 #### `const { propiedad, otra, otra2 } = objeto`
 #### `const [ elemento, elemento2, elemento3 ] = arreglo`
 #### `const [ { propiedad } ] = arreglo;`
+#### `const { propiedad: [ primerElemento, ...rest ] } = objeto;`
+
+
+### Classes
