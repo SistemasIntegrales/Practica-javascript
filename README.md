@@ -40,3 +40,7 @@
 
 
 ### Classes
+
+### Generators
+
+### Promises & fetch
