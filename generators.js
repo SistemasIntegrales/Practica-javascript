@@ -1,5 +1,5 @@
 /*
-* Más formas de iterar
+* Más formas de iterar: ForOf
 *
 */
 
